@@ -8,8 +8,8 @@ credentials:
       password: abc # Will be hashed automatically
 cookie:
   expiry_days: 30
-  key: some_signature_key
-  name: some_cookie_name
+  key: mykeenmykeen12345
+  name: mykeen-auth
 pre-authorized:
   emails:
     -
