@@ -24,6 +24,8 @@ def authentication():
         auto_hash=True,
     )
 
+    print(authenticator.credentials)
+
     authenticator.login()
 
     if st.session_state["authentication_status"]:
