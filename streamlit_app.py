@@ -24,7 +24,7 @@ def authentication():
         auto_hash=True,
     )
 
-    print(authenticator.credentials)
+    print(authenticator)
 
     authenticator.login()
 
