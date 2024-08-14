@@ -11,7 +11,7 @@ st.write(
 
 
 def authentication():
-    with open("./config.yaml") as file:
+    with open("config.yaml") as file:
         config = yaml.load(file, Loader=SafeLoader)
 
     authenticator = stauth.Authenticate(
